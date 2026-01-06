@@ -1,0 +1,7 @@
+services:
+  dcm-rl-gym:
+    image: ghcr.io/flaming-phoenix/dcm-reinforcement-learning:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - "${PWD}/notebooks:/workspace/notebooks"
