@@ -18,7 +18,11 @@ https://stable-baselines3.readthedocs.io/en/master/
 
 - You can use any algorithm available in Stable Baselines3
 
-You can train locally if you are comfortable setting up a Python environment or using Kaggle notebooks.
+You can train locally if you are comfortable setting up a Python environment, you can use the provided docker images or using Kaggle notebooks.
+
+#### Docker
+
+To use Docker use the docker compose found here: [docker-compose.yaml]
 
 #### Kaggle 
 
@@ -37,7 +41,7 @@ Your submission must be a ZIP file generated using:
 
 ```model.save("your_model_name")```
 
-Additionally, we need to know if your model used `continuous = False` or `continuous = False` and which Stable Baselines3 algorithm you used eg `PPO` / `DQN` etc. 
+Additionally, we need to know if your model used `continuous = False` or `continuous = True` and which Stable Baselines3 algorithm you used eg `PPO` / `DQN` etc. 
 
 The resulting .zip file is what you submit for the competition.
 
