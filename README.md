@@ -22,7 +22,7 @@ You can train locally if you are comfortable setting up a Python environment, yo
 
 #### Docker
 
-To use Docker use the docker compose found here: (docker-compose.yaml)
+To use Docker use the docker compose found here: https://github.com/flaming-phoenix/dcm-reinforcement-learning/blob/main/docker-compose.yaml
 
 #### Kaggle 
 
