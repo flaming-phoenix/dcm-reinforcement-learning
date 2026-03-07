@@ -54,6 +54,16 @@ The notebook includes a **CONFIGURATION SECTION** at the top where you can easil
 
 We have provided you with a starter notebook, which shows the racetrack environment, introduces the Stable Baselines3 library, and demonstrates how to adjust hyperparameters to improve model performance.
 
+### Docker
+
+1. Download the [docker-compose.yaml](./docker-compose.yaml) file
+2. Run
+   ```bash
+   docker compose up -d
+   ```
+   (Be patient the image will take a while to download)
+
+
 ### Local Setup
 
 If you prefer to train locally:
