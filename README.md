@@ -56,12 +56,22 @@ We have provided you with a starter notebook, which shows the racetrack environm
 
 ### Docker
 
-1. Download the [docker-compose.yaml](./docker-compose.yaml) file
-2. Run
+The quickest way to get started is to use the pre-built Docker image.
+
+1. **Run the pre-built image (Recommended):**
    ```bash
    docker compose up -d
    ```
-   (Be patient the image will take a while to download)
+   *Note: The first time you run this, it will download the image from the GitHub Container Registry.*
+
+2. **Build locally (Fallback/Development):**
+   If the pre-built image is unavailable or you wish to modify the environment, you can build it locally:
+   ```bash
+   docker compose -f docker-compose.local.yaml up -d --build
+   ```
+
+3. **Access the environment:**
+   Once the container is running, open `http://localhost:8888` in your browser.
 
 
 ### Local Setup

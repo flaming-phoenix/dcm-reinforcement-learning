@@ -1,0 +1,8 @@
+services:
+  dcm-rl-gym:
+    build: .
+    image: dcm-reinforcement-learning:local
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./notebooks:/workspace/notebooks"
